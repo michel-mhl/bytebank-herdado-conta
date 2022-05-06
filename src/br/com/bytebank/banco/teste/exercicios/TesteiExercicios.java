@@ -14,6 +14,7 @@ class TesteiExercicios {
         aulas.add(aulaIntro);
         aulas.add(aulaModelando);
         aulas.add(aulaSets);
+        System.out.println("teste");
 
         Collections.sort(aulas);   //ordenando naturalmente com o compareTo na classe Aula,implementado no comparable
         Collections.shuffle(aulas);// embaralhando os elementos das aulas .shuffle
